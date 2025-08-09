@@ -1,0 +1,30 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 📚 Documentation
+    url: https://github.com/Prem-Prabhat/yt-downloader-cli#readme
+    about: Check the documentation before creating an issue.
+  - name: 💬 Discussions
+    url: https://github.com/Prem-Prabhat/yt-downloader-cli/discussions
+    about: Use GitHub Discussions for questions, ideas, or general conversation.
+
+issue_templates:
+  - name: 🐞 Bug Report
+    about: Report a bug to help us improve
+    title: "[BUG] "
+    labels: ["bug"]
+    assignees: []
+    file: bug_report.md
+
+  - name: ✨ Feature Request
+    about: Suggest a new feature or enhancement
+    title: "[FEATURE] "
+    labels: ["enhancement"]
+    assignees: []
+    file: feature_request.md
+
+  - name: 🛠 Custom Issue
+    about: Use this for anything that doesn’t fit bug or feature request
+    title: "[CUSTOM] "
+    labels: ["question"]
+    assignees: []
+    file: custom.md
